@@ -8,6 +8,7 @@
 #include<QFile>
 #include<QTextStream>
 
+//测试
 
 
 void MessageOutPut(QtMsgType type, const QMessageLogContext &context, const QString &msg);
