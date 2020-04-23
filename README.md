@@ -1,8 +1,8 @@
-# ddk-ventoy
+# deepin-ventoy
 
 <img src="http://www.ventoy.net/static/img/screen/screen_uefi.png">
 
-ddk-ventoy是U盘装系统神器 - Ventoy 的deepin桌面版
+deepin-ventoy是U盘装系统神器 - Ventoy 的deepin桌面版
 
 ventoy无差异支持Legacy BIOS 和 UEFI模式,可以直接拷贝多个不同种类的OS镜像或PE镜像直接启动而不需要格盘。
 
