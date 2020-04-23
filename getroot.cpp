@@ -64,7 +64,7 @@ bool getroot::eventFilter(QObject *target, QEvent *event)
 
 void getroot::on_lineEdit_textEdited(const QString &arg1)
 {
-
+    Q_UNUSED(arg1);
     if(ui->lineEdit->text()==""){
        ui->label_pass->show();
    }else{

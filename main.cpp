@@ -9,8 +9,6 @@
 #include<QTextStream>
 
 
-//测试
-
 void MessageOutPut(QtMsgType type, const QMessageLogContext &context, const QString &msg);
 
 int main(int argc, char *argv[])
@@ -31,6 +29,7 @@ int main(int argc, char *argv[])
 void MessageOutPut(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 
 {
+    Q_UNUSED(context);
     static QMutex mutex;
     mutex.lock();
     QString text;
