@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>res/show.png</file>
+        <file>res/hide_pass.png</file>
+        <file>res/show_pass.png</file>
+    </qresource>
+</RCC>
